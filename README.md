@@ -18,9 +18,9 @@ sudo make install
 sudo reboot
 ```
 
-Plug your USB-wifi-adapter into your PC.
+Plug your USB Wi-Fi adapter into your PC.
 
-## Checking installed driver
+### Checking installed driver
 If you successfully install the driver, the driver is installed on `/lib/modules/<linux version>/kernel/drivers/net/wireless/realtek/rtl8821cu`. Check the driver with the `ls` command:
 ```
 ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek/rtl8821cu
