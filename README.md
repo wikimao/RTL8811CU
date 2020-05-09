@@ -10,7 +10,7 @@ If via Git, do following:
 
 ```bash
 sudo apt-get update
-sudo apt-get install build-essential
+sudo apt-get install build-essential git
 git clone https://github.com/fastoe/RTL8811CU.git
 cd RTL8811CU
 make
