@@ -1,6 +1,6 @@
 # Realtek RTL8811CU/RTL8821CU USB Wi-Fi adapter driver version 5.4.1 for Linux 4.4.x up to 5.6.x
 
-[![Build Status](https://travis-ci.com/fastoe/RTL8821CU.svg?branch=master)](https://travis-ci.com/fastoe/RTL8821CU)
+[![Build Status](https://travis-ci.com/fastoe/RTL8811CU.svg?branch=master)](https://travis-ci.com/fastoe/RTL8811CU)
 
 A few known wireless cards that use this driver include:
 * [Fastoe AC650 USB Wi-Fi Adapter](https://amzn.to/2KR1Lxi)
