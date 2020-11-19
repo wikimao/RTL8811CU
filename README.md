@@ -22,18 +22,10 @@ sudo reboot
 
 Plug your USB Wi-Fi adapter into your PC.
 
-### Checking installed driver
-If you successfully install the driver, the driver is installed on `/lib/modules/<linux version>/kernel/drivers/net/wireless/realtek/rtl8821cu`. Check the driver with the `ls` command:
-```
-ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek/rtl8821cu
-```
-Make sure `8821cu.ko` file present on that directory
-
 ### Monitor mode
 Use the tool 'iw', please don't use other tools like 'airmon-ng'
 ```
 iw dev wlan0 set monitor none
 ```
-
 
 Enjoy!
