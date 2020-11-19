@@ -1,0 +1,5 @@
+language: c
+dist: focal
+before_install:
+  - sudo apt -y install linux-headers-5.4.0-52-generic git bc
+script: make
